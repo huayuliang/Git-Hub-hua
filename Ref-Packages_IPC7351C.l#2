@@ -2276,10 +2276,7 @@ SOP28</description>
 <wire x1="-11.69" y1="1.27" x2="-11.69" y2="-1.27" width="0.12" layer="21" curve="-180"/>
 </package>
 <package name="SOIC9P127_490X600X170L83X41T274X224N">
-<description>Small Outline IC (SOIC with Tab), 1.27 mm pitch; 8 pin, 4.90 mm L X 3.90 mm W X 1.70 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;
-&lt;hr&gt;
-OPA454 High-Voltage (100-V), High-Current (50-mA)&lt;br&gt;
-Operational Amplifiers, G = 1 Stable</description>
+<description>Small Outline IC (SOIC with Tab), 1.27 mm pitch; 8 pin, 4.90 mm L X 3.90 mm W X 1.70 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <smd name="1" x="-1.905" y="-2.425" dx="2.07" dy="0.66" layer="1" roundness="52" rot="R270"/>
 <smd name="2" x="-0.635" y="-2.425" dx="2.07" dy="0.66" layer="1" roundness="52" rot="R270"/>
 <smd name="3" x="0.635" y="-2.425" dx="2.07" dy="0.66" layer="1" roundness="52" rot="R270"/>
@@ -2385,6 +2382,12 @@ Operational Amplifiers, G = 1 Stable</description>
 <text x="0" y="0" size="2" layer="51" font="vector" ratio="10">&gt;VALUE</text>
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <wire x1="-2.5" y1="0.508" x2="-2.5" y2="-0.508" width="0.12" layer="21" curve="-180"/>
+<hole x="-1.5" y="0.75" drill="0.3"/>
+<hole x="-1.5" y="-0.75" drill="0.3"/>
+<hole x="0" y="0.75" drill="0.3"/>
+<hole x="0" y="-0.75" drill="0.3"/>
+<hole x="1.5" y="0.75" drill="0.3"/>
+<hole x="1.5" y="-0.75" drill="0.3"/>
 </package>
 </packages>
 <symbols>

@@ -3131,8 +3131,8 @@ UDN2982LW and UDN2984LW</description>
 <wire x1="-1.27" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="1.27" y1="12.7" x2="-1.27" y2="12.7" width="0.254" layer="94" curve="-180"/>
-<text x="-7.62" y="15.24" size="1.27" layer="95" ratio="10">&gt;NAME</text>
-<text x="-7.62" y="13.208" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
+<text x="-7.62" y="15.24" size="1.27" layer="95" font="vector" ratio="10">&gt;NAME</text>
+<text x="-7.62" y="13.208" size="1.27" layer="96" font="vector" ratio="10">&gt;VALUE</text>
 </symbol>
 <symbol name="OPA454">
 <wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>

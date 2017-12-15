@@ -24,22 +24,22 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -53,13 +53,13 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
@@ -2276,10 +2276,7 @@ SOP28</description>
 <wire x1="-11.69" y1="1.27" x2="-11.69" y2="-1.27" width="0.12" layer="21" curve="-180"/>
 </package>
 <package name="SOIC9P127_490X600X170L83X41T274X224N">
-<description>Small Outline IC (SOIC with Tab), 1.27 mm pitch; 8 pin, 4.90 mm L X 3.90 mm W X 1.70 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;
-&lt;hr&gt;
-OPA454 High-Voltage (100-V), High-Current (50-mA)&lt;br&gt;
-Operational Amplifiers, G = 1 Stable</description>
+<description>Small Outline IC (SOIC with Tab), 1.27 mm pitch; 8 pin, 4.90 mm L X 3.90 mm W X 1.70 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <smd name="1" x="-1.905" y="-2.425" dx="2.07" dy="0.66" layer="1" roundness="52" rot="R270"/>
 <smd name="2" x="-0.635" y="-2.425" dx="2.07" dy="0.66" layer="1" roundness="52" rot="R270"/>
 <smd name="3" x="0.635" y="-2.425" dx="2.07" dy="0.66" layer="1" roundness="52" rot="R270"/>
@@ -2288,7 +2285,7 @@ Operational Amplifiers, G = 1 Stable</description>
 <smd name="6" x="0.635" y="2.425" dx="2.07" dy="0.66" layer="1" roundness="52" rot="R90"/>
 <smd name="7" x="-0.635" y="2.425" dx="2.07" dy="0.66" layer="1" roundness="52" rot="R90"/>
 <smd name="8" x="-1.905" y="2.425" dx="2.07" dy="0.66" layer="1" roundness="52" rot="R90"/>
-<smd name="ETP" x="0" y="0" dx="2.49" dy="3" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="9" x="0" y="0" dx="2.245" dy="2.745" layer="1" rot="R90" stop="no" cream="no"/>
 <wire x1="-2.11" y1="-2.165" x2="-1.7" y2="-2.165" width="0.025" layer="51"/>
 <wire x1="-1.7" y1="-2.165" x2="-1.7" y2="-3" width="0.025" layer="51"/>
 <wire x1="-1.7" y1="-3" x2="-2.11" y2="-3" width="0.025" layer="51"/>
